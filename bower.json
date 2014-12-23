@@ -16,6 +16,8 @@
     "bootstrap": "~3.3.1"
   },
   "devDependencies": {
-    "bootstrap": "~3.3.1"
+    "bootstrap": "~3.3.1",
+    "moment": "~2.8.4",
+    "showdown": "~0.3.1"
   }
 }
