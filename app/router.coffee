@@ -6,6 +6,6 @@ Router = Ember.Router.extend(
 )
 
 Router.map ->
-
+  @route 'about'
 
 `export default Router;`
