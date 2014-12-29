@@ -3,10 +3,12 @@
 <ul class="list-unstyled">
   {{#each}}
     <li>
-      {{title}}
-      <span class="muted">
-        by {{author.name}}
-      </span>
+      {{#link-to 'post' this}}
+        {{title}}
+        <span class="muted">
+          by {{author.name}}
+        </span>
+      {{/link-to}}
     </li>
   {{/each}}
 </ul>
