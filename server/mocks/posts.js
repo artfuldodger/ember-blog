@@ -6,7 +6,14 @@ module.exports = function(app) {
     res.send({
       "posts": [{
         id: 1,
-        title: 'Bananas'
+        title: 'Bananas',
+        author: 1
+      }],
+
+      "authors": [{
+        id: 1,
+        name: "George",
+        posts: [1]
       }]
     });
   });
