@@ -34,7 +34,7 @@ var posts = [
     id: 2,
     title: 'Monkeys',
     author: 1,
-    body: 'Monkeys are pretty much the coolest animal. That is really all there is to it.',
+    body: 'Monkeys are pretty much the *coolest* animal. That is really all there is to it.',
     date: new Date(2014, 9, 15, 6, 0, 0)
   }
 ];
