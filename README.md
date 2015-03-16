@@ -1,7 +1,11 @@
 # Ember-blog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a basic blog implemented utilizing Ember CLI. Here are some screencasts documenting its creation:
+
+- Part 1: https://www.youtube.com/watch?v=vLXGKNA4P_g
+- Part 2: https://www.youtube.com/watch?v=eV6JRW6gOyI
+
+Information for running the app follows.
 
 ## Prerequisites
 
