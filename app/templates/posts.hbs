@@ -1,13 +1,13 @@
-<div class="col-md-4">
-  <h3>Posts</h3>
+<h3>Posts</h3>
 
+<div class="col-md-4">
   <ul class="list-unstyled">
-    {{#each}}
+    {{#each post in this}}
       <li>
-        {{#link-to 'post' this}}
-          {{title}}
+        {{#link-to 'post' post}}
+          {{post.title}}
           <span class="muted">
-            by {{author.name}}
+            by {{post.author.name}}
           </span>
         {{/link-to}}
       </li>
