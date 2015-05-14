@@ -1,18 +1,21 @@
 # Ember-blog
 
-This is a basic blog implemented utilizing Ember CLI. Here are some screencasts documenting its creation:
+This is an updated version of a simple blogging app built with the latest `ember-cli` and using `http-mock` for its data source. 
 
-- Part 1: https://www.youtube.com/watch?v=vLXGKNA4P_g
-- Part 2: https://www.youtube.com/watch?v=eV6JRW6gOyI
+See the screencasts by Jon Evans [here](https://www.youtube.com/watch?v=vLXGKNA4P_g) (part 1) and [here](https://www.youtube.com/watch?v=eV6JRW6gOyI) (part 2). 
 
-Information for running the app follows.
+(This is by far the most useful, up-to-date, and entertaining screencast I've found for the latest Ember! ;) )
+
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://www.ember-cli.com/)
+* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 

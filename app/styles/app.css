@@ -2,10 +2,12 @@ body {
   padding-top: 70px;
 }
 
-nav {
-  .active {
+.navbar-brand{
+	font-weight: normal !important;
+}
+
+nav .active {
     font-weight: bold;
-  }
 }
 
 .muted {

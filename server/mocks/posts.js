@@ -25,19 +25,25 @@ if (!Array.prototype.find) {
 var posts = [
   {
     id: 1,
-    title: 'Bananas',
+    title: 'Bananas!!',
     author: 1,
-    body: 'The most controversial aspect of the banana is whether it should be opened from the stem or from the bottom. I like to take it on a case-by-case basis.',
+    body: 'The most *controversial* aspect of the banana is whether it should be opened from the stem or from the bottom. I like to take it on a case-by-case basis.',
     date: new Date(2014, 5, 4, 6, 0, 0)
   },
   {
     id: 2,
     title: 'Monkeys',
     author: 1,
-    body: 'Monkeys are pretty much the *coolest* animal. That is really all there is to it.',
+    body: 'Monkeys are **pretty much** the *coolest* animal. That is really all there is to it.',
     date: new Date(2014, 9, 15, 6, 0, 0)
   }
 ];
+
+var authors = [{
+        id: 1,
+        name: "Kosso",
+        posts: [1, 2]
+      }];
 
 module.exports = function(app) {
   var express = require('express');
@@ -46,12 +52,7 @@ module.exports = function(app) {
   postsRouter.get('/', function(req, res) {
     res.send({
       "posts": posts,
-
-      "authors": [{
-        id: 1,
-        name: "George",
-        posts: [1]
-      }]
+      "authors": authors
     });
   });
 
@@ -60,17 +61,12 @@ module.exports = function(app) {
   });
 
   postsRouter.get('/:id', function(req, res) {
-    console.log([].find);
-    console.log(posts.find);
+    //console.log([].find);
+    //console.log(posts.find);
     res.send({
       "post": posts.find(function(post) {
         return post.id == req.params.id
-      }),
-      "authors": [{
-        id: 1,
-        name: "George",
-        posts: [1]
-      }]
+      })
     });
   });
 

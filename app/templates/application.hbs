@@ -7,13 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Ember Blog</a>
+      {{#link-to 'index' classNames="navbar-brand"}}Ember Blog{{/link-to}}
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li>{{#link-to 'posts'}}Posts{{/link-to}}</a></li>
-        <li>{{#link-to 'about'}}About{{/link-to}}</a></li>
+      
+        <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
+        <li>{{#link-to 'about'}}About{{/link-to}}</li>
+
       </ul>
     </div>
   </div>
