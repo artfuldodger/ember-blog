@@ -4,7 +4,7 @@ This is an updated version of a simple blogging app built with the latest ember-
 
 See the screencasts by Jon Evans [here](https://www.youtube.com/watch?v=vLXGKNA4P_g) (part 1) and [here](https://www.youtube.com/watch?v=eV6JRW6gOyI) (part 2). 
 
-(This By far the most useful, up to date, and entertaining screencast I've found! ;) )
+(This is by far the most useful, up-to-date, and entertaining screencast I've found for the latest Ember! ;) )
 
 
 ## Prerequisites
